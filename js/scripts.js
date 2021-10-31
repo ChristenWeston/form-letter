@@ -4,7 +4,6 @@ $(document).ready(function() {
     const name1Input = $("input#name1").val();
 
     $(".name1").text(name1Input);
-
     $("#letter").show();
   });
 });
