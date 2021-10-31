@@ -11,6 +11,14 @@ $(document).ready(function() {
     const greeting =$("input#greeting").val();
     const fromWho =$("input#fromWho").val();
 
+    function nameToUppercase(name1Input) {
+      let nameUpper = name1Input.toUpperCase();
+      alert(nameUpper);
+      return nameUpper;
+    }
+
+    nameToUppercase(name1Input);
+
     //If the form is re-submitted w/ new values in the form this will ensure that
     //only the new values are used (by using text instead of append)
     $(".name1").text(name1Input);
